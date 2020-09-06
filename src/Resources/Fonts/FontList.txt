@@ -1,0 +1,29 @@
+src/Resources/Fonts/DroidSansFallback.ttf
+src/Resources/Fonts/Inconsolata for Powerline.otf
+src/Resources/Fonts/Inconsolata-dz for Powerline.otf
+src/Resources/Fonts/Inconsolata-g (1).ttf
+src/Resources/Fonts/Inconsolata-g for Powerline (1).otf
+src/Resources/Fonts/Inconsolata-g for Powerline.otf
+src/Resources/Fonts/Inconsolata-g.otf
+src/Resources/Fonts/Inconsolata-g.ttf
+src/Resources/Fonts/Inconsolata-Regular.ttf
+src/Resources/Fonts/Inconsolata.otf
+src/Resources/Fonts/InconsolataGo-Regular.ttf
+src/Resources/Fonts/Roboto-Black.ttf
+src/Resources/Fonts/Roboto-BlackItalic.ttf
+src/Resources/Fonts/Roboto-Bold.ttf
+src/Resources/Fonts/Roboto-BoldItalic.ttf
+src/Resources/Fonts/Roboto-Italic.ttf
+src/Resources/Fonts/Roboto-Light.ttf
+src/Resources/Fonts/Roboto-LightItalic.ttf
+src/Resources/Fonts/Roboto-Medium.ttf
+src/Resources/Fonts/Roboto-MediumItalic.ttf
+src/Resources/Fonts/Roboto-Regular.ttf
+src/Resources/Fonts/Roboto-Thin.ttf
+src/Resources/Fonts/Roboto-ThinItalic.ttf
+src/Resources/Fonts/RobotoCondensed-Bold.ttf
+src/Resources/Fonts/RobotoCondensed-BoldItalic.ttf
+src/Resources/Fonts/RobotoCondensed-Italic.ttf
+src/Resources/Fonts/RobotoCondensed-Light.ttf
+src/Resources/Fonts/RobotoCondensed-LightItalic.ttf
+src/Resources/Fonts/RobotoCondensed-Regular.ttf
