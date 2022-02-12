@@ -1,0 +1,12 @@
+﻿  SonoGUI.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(22,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(117,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(145,35): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(145,32): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(145,29): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(149,38): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(149,35): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(149,32): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\src\Headers\SonoGUI_window.hpp(149,29): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+  SonoGui.vcxproj -> C:\Users\cabar\Documents\GitHub\SonoGui\SonoGUI\x64\Debug\SonoGui.exe

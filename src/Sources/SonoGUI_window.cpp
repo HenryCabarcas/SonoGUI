@@ -38,7 +38,7 @@ bool Window::create(std::string name, int width, int height, bool style) {
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	glClearColor(0, 0, 0, 30);
-	button_shader.loadFromFile("./src/Resources/Shaders/button_shader.frag", sf::Shader::Fragment);
+	//button_shader.loadFromFile("./src/Resources/Shaders/button_shader.frag", sf::Shader::Fragment);
 	return true;
 }
 
@@ -57,13 +57,13 @@ Window::~Window()
 }
 
 void Window::update() {
-	button_shader.setParameter("u_resolution", sf::Vector2f(win.getSize()));
-	button_shader.setParameter("u_mouse", sf::Vector2f(std::abs(int(m_pos.x)),std::abs(int(m_pos.y-win.getSize().y))));
-	button_shader.setParameter("u_time", tex_time.getElapsedTime().asSeconds());
+	//button_shader.setParameter("u_resolution", sf::Vector2f(win.getSize()));
+	//button_shader.setParameter("u_mouse", sf::Vector2f(std::abs(int(m_pos.x)),std::abs(int(m_pos.y-win.getSize().y))));
+	//button_shader.setParameter("u_time", tex_time.getElapsedTime().asSeconds());
 	for (size_t i = 0; i < arrayBuff.size(); i++)
 	{
-		if(buttonHBuff[i])win.draw(arrayBuff[i], &button_shader);
-		else win.draw(arrayBuff[i]);
+		/*if(buttonHBuff[i])*/win.draw(arrayBuff[i], &button_shader);
+		//else win.draw(arrayBuff[i]);
 		
 	}
 	for (size_t i = 0; i < textBuff.size(); i++)
@@ -706,9 +706,9 @@ void _Button::update() {
 
 }
 
-bool Sono::Button(std::string text, int pos_x, int pos_y, int size_x, int size_y)
+bool Sono::Button(std::string text)
 {
-	_Button tempb(text, pos_x, pos_y, size_x, size_y,5);
+	_Button tempb(text, sf::Vector2f(100, 200), Button_Size);
 	tempb.update();
 	
 	{ buttonHBuff.push_back(true); buttonHBuff.push_back(true); }

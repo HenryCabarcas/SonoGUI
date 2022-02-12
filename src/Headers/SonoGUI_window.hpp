@@ -12,6 +12,7 @@ namespace Sono {
 	static sf::Color Button_Clicked_Color = sf::Color::Cyan;
 	static sf::Color Button_Clicked_Border_Color = sf::Color::White;
 	static sf::Color Button_Clicked_Font_Color = sf::Color::Black;
+	static sf::Vector2f Button_Size(150, 75);
 	static float default_border_thickness = 1;
 	static sf::Vector2i m_pos = { 0,0 };
 	static const bool Default = 0;
@@ -23,7 +24,7 @@ namespace Sono {
 	static std::vector<sf::Text> textBuff;
 	static std::vector<bool> buttonHBuff;
 	bool Hovered(sf::Rect<float> rect, sf::Vector2i mouse_pos);
-	bool Button(std::string text, int pos_x, int pos_y, int size_x, int size_y);
+	bool Button(std::string text);
 	/* bool Button(std::string text);
 	 bool Button(std::string text, int pos_x, int pos_y);
 	 bool Button(std::string text, sf::Vector2i pos, sf::Vector2i size);*/
@@ -259,6 +260,11 @@ namespace Sono {
 		int font_size = 12;
 		sf::Color fontColor =Button_Font_Color;
 		sf::Color hoveredFontColor = Button_Hovered_Font_Color;
+	};
+
+	class container : public RoundedRectangle {
+	public:
+		container(std::string title, int posx, int posy, int x, int y, int radius);
 	};
 }
 

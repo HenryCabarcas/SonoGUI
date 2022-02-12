@@ -46,7 +46,7 @@ float snoise(vec2 v){
 }
 
 void main() {
-    vec2 st =1e2*gl_FragCoord.xy/u_resolution.xy*u_time;
+    vec2 st =1.3e7*gl_FragCoord.xy/u_resolution.xy;
     st.x *= u_resolution.x/u_resolution.y;
     
     float radius=dist(u_mouse, gl_FragCoord.xy);

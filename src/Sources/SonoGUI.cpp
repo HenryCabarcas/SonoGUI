@@ -3,9 +3,6 @@
 int main() {
     Sono::Window mainw("Main", 600, 400,1);
     //mainw.win.setVerticalSyncEnabled(false);
-    sf::CircleShape shape(50.f);
-    shape.setOrigin(shape.getRadius(), shape.getRadius());
-    shape.setPosition(sf::Vector2f(200.f, 200.f));
     sf::Font tt = mainw._Fonts[2];
     sf::Text tex;
     tex.setFont(mainw._Fonts[0]);
@@ -24,8 +21,8 @@ int main() {
         //mainw.win.draw(shape);
         std::string tt = std::to_string(mainw.getFPS());
         tex.setString(tt);
-        Sono::Button(d, 350, 100, 100, 35);
-        Sono::Button("m",190, 100, 100, 35);
+        Sono::Button(d);
+        Sono::Button("m");
         mainw.win.draw(tex);
         mainw.update();
     }
